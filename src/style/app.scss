@@ -1,0 +1,13 @@
+@import 'utility/normalize';
+@import 'utility/variables';
+@import 'utility/mixins';
+@import 'common/base';
+@import 'typography/fonts';
+@import 'typography/index';
+@import 'layouts/index';
+
+body {
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
